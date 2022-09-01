@@ -520,7 +520,7 @@ header{
 .orcamento-wrapper{
     width: 60%;
     height: 80%;
-    background-color: #ffffff99;
+    background-color: #ffffff80;
     border-radius: 10px;
     box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .5);
     position: relative;
@@ -529,7 +529,7 @@ header{
 .sessao-orcamento h1{
     position: absolute;
     top: -2.5rem;
-    left: 22%;
+    margin-left: 20rem;
     background: #8A2387;
     background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);  
     background: linear-gradient(to left, #F27121, #E94057, #8A2387);
@@ -545,7 +545,35 @@ header{
 .sessao-orcamento form{
     margin: 4rem;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr;    
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap: 4rem;
+}
+
+.sessao-orcamento label{
+    font-family: var(--font-secundary);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sessao-orcamento input[type="number"]{
+     font-family: var(--font-action);
+     width: 4rem;
+     font-size: 2rem;
+     outline: none;
+     border-radius: 10px;
+     border: none;
+     padding: 0.3rem;
+}
+
+.btn-orcamento{
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2 ;
+}
+
+.sessao-orcamento input[type="checkbox"]{
+    margin: -.2rem;
+    margin-right: 43rem;
 }
