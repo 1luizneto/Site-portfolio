@@ -96,7 +96,6 @@ header{
     position: relative;
 }
 
-
 .sidebar{
     width: 20rem;
     z-index: 99;
@@ -156,10 +155,6 @@ header{
     border-radius: 50%;
     transition: background-color .5s;
 }
-
-
-
-
 
 footer{
     width: 100%;
