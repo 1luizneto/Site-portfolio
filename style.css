@@ -534,7 +534,7 @@ header{
 .sessao-orcamento h1{
     position: absolute;
     top: -2.5rem;
-    margin-left: 20rem;
+    margin-left: 13rem;
     background: #8A2387;
     background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);  
     background: linear-gradient(to left, #F27121, #E94057, #8A2387);
@@ -580,7 +580,7 @@ header{
 
 .sessao-orcamento input[type="checkbox"]{
     margin: -.2rem;
-    margin-right: 43rem;
+    margin-right: 30rem;
 }
 
 footer{
