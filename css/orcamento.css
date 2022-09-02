@@ -3,7 +3,7 @@
 .sessao-orcamento{
     width: 100%;
     height: 100vh;
-    background: url(imagens/bg-orcamento.jpg);
+    background: url(imagensCss/bg-orcamento.jpg);
     object-fit: cover;
     display: flex;
     justify-content: center;
